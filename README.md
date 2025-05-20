@@ -76,3 +76,5 @@ This project is built with:
 - Tailwind CSS
 - Secure REST API
 
+![Screenshot (59)](https://github.com/user-attachments/assets/2b9c5fde-3dd5-43ab-96cb-7a5e3e71754a)
+![Screenshot (60)](https://github.com/user-attachments/assets/91460fdd-0bcf-4813-b4e9-0c02a880d58e)
