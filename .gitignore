@@ -1,5 +1,5 @@
 # Logs
-logs
+logs/
 *.log
 npm-debug.log*
 yarn-debug.log*
@@ -7,18 +7,43 @@ yarn-error.log*
 pnpm-debug.log*
 lerna-debug.log*
 
-node_modules
-dist
-dist-ssr
-*.local
+# Dependency directories
+node_modules/
 
-# Editor directories and files
-.vscode/*
+# Vite build output
+dist/
+dist-ssr/
+.vite/
+
+# Tailwind cache (optional)
+.tailwind/
+
+# Local env files
+*.local
+.env
+.env.*.local
+
+# TypeScript build info
+*.tsbuildinfo
+
+# Editor settings
+.vscode/
 !.vscode/extensions.json
-.idea
+.idea/
 .DS_Store
 *.suo
 *.ntvs*
 *.njsproj
 *.sln
 *.sw?
+
+# Bun lock file (if you're not using Bun, remove this)
+bun.lockb
+
+# Test coverage
+coverage/
+*.lcov
+
+# Build output folders
+build/
+out/
